@@ -39,6 +39,7 @@
     "lingua": "Lumenary Lingua",
     "prep": "Lumenary Prep",
     "source": "Source code",
+    "otherProjects": "Our other projects",
     "short": {
       "math": "Math",
       "learn": "Learn",
@@ -212,6 +213,13 @@
       "text": "Every lesson here is free and complete on its own. If you would like a person to teach you, independent tutors and organisations offer lessons and classes through Gideon Tasks, a separate marketplace.",
       "owner": "Gideon Tasks is run by Gideon Solutions, LLC, under the same ownership as Lumenary Academy.",
       "link": "Tutoring on Gideon Tasks"
+    },
+    "sameOwner": {
+      "title": "From the same owner",
+      "disclosure": "Lumenary Academy’s owner also runs these businesses, and some of them charge money. They are listed here because they are ours, not because anyone judged them the best of their kind.",
+      "prep": "Exam preparation from Lumenary Academy. It is paid: $50 a course, one payment for lifetime access.",
+      "games": "Games you play in your browser. They are free, and you need no account to play.",
+      "tax": "Low-cost software for filing tax returns with the IRS online. It is paid."
     }
   },
   "levels": {

@@ -2,6 +2,8 @@
  * Tutors and classes: the site's one pointer to tutors and classes. One plain section of the front page,
  * in every locale, says that the lessons are complete on their own, points to Gideon Tasks (a
  * separate marketplace) and says who runs it. Nothing else on the site, and no lesson, links there.
+ * The owner's other projects follow in a section of their own (tests/same-owner.test.ts), which never
+ * repeats Gideon Tasks.
  */
 import { describe, expect, it } from "vitest";
 import fs from "node:fs";

@@ -148,6 +148,7 @@ Feedback never shames: "Not yet — …" rather than "Wrong".
 - **Link, don't retell.** Papers, lab and company engineering blogs, official documentation, standards and open courses are linked in `references` or in the prose. Linking is always fine; copying is not.
 - **Honest and current.** Say what is known, what is contested and what changes fast. For fast-moving fields (the AI frontier), give the durable ideas and date anything time-sensitive ("as of 2026"). Do not invent papers, numbers, quotations or URLs; if unsure of a URL, link the organisation's main page or leave it out.
 - **No hype, no fear.** No marketing language, no score or salary promises.
+- **No promotion.** A lesson, its exercises and its course page never link or name the owner's other projects (Lumenary Prep, Gideon Tasks, Gideon Tax, Peace Cat Games). They belong on the front page only: in "Tutors & classes" and, since 22 November 2026, in "From the same owner", which the footer links ([architecture.md](architecture.md#lumenary-academy-lingua-and-prep)); `tests/same-owner.test.ts` checks this.
 - **For learners everywhere.** Examples from many countries and cultures; names from many languages.
 
 ### Lumenary CS
