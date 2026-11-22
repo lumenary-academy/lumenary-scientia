@@ -98,7 +98,7 @@
   "home": {
     "eyebrow": "A free, open-source school of mathematics",
     "title": "Mathematics, from counting to categories — for everyone, everywhere.",
-    "lead": "Lumenary Math is a growing curriculum where every idea is explored three ways: understood by people, proved precisely, and tested by computation. Learn at your own pace. No accounts, no ads, no streaks.",
+    "lead": "Lumenary Math is a growing curriculum where every idea is explored three ways: understood by people, proved precisely, and tested by computation. Learn at your own pace. No accounts, no third-party ads, no streaks.",
     "start": "Start learning",
     "explore": "Explore the map",
     "modesTitle": "Three ways of knowing, woven together",
@@ -204,7 +204,7 @@
   "scientia": {
     "eyebrow": "The sciences · Free and open source",
     "lead": "Lumenary Scientia teaches the sciences, each from first steps to the frontier: mathematics, chemistry, statistics, computer science and programming languages, electrical engineering, robotics, mechanical engineering and materials science. Physics, biology and other sciences will follow.",
-    "free": "It is free and open source, now and always: no accounts, no advertising and no paid tiers. The code is licensed under Apache-2.0, and the lessons, exercises and diagrams under CC BY-SA 4.0.",
+    "free": "It is free and open source, now and always: no accounts, no third-party ads and no paid tiers. The code is licensed under Apache-2.0, and the lessons, exercises and diagrams under CC BY-SA 4.0.",
     "honesty": "Every lesson was drafted with AI assistance, and none has yet been reviewed by a human expert. The Lean proofs are checked by Lean and the lessons’ code is run by automated checks; everything else awaits human review.",
     "about": "About Lumenary Scientia",
     "academy": "Lumenary Scientia is one of the three divisions of {academy}, with {lingua} for languages and {prep} for exam preparation.",
