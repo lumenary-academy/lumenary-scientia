@@ -39,6 +39,7 @@
     "lingua": "Lumenary Lingua",
     "prep": "Lumenary Prep",
     "source": "源代码",
+    "otherProjects": "我们的其他项目",
     "short": {
       "math": "数学",
       "learn": "学习",
@@ -212,6 +213,13 @@
       "text": "这里的每一课都是免费的，本身就很完整。如果你希望有人亲自教你，独立家教和机构会通过 Gideon Tasks 提供辅导和课程班；Gideon Tasks 是一个独立的交易平台。",
       "owner": "Gideon Tasks 由 Gideon Solutions, LLC 运营，与 Lumenary Academy 归属同一所有者。",
       "link": "Gideon Tasks 上的家教服务"
+    },
+    "sameOwner": {
+      "title": "同一所有者的其他项目",
+      "disclosure": "Lumenary Academy 的所有者还经营着这些业务，其中一些收费。把它们列在这里，是因为它们是我们自己的，而不是因为有人评定它们是同类中最好的。",
+      "prep": "Lumenary Academy 的备考课程。收费：每门课程 $50，一次付款，终身访问。",
+      "games": "在浏览器里玩的游戏。免费，无需账户即可游玩。",
+      "tax": "低成本的软件，用于通过网络向美国国税局（IRS）提交纳税申报表。收费。"
     }
   },
   "levels": {

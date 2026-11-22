@@ -39,6 +39,7 @@
     "lingua": "Lumenary Lingua",
     "prep": "Lumenary Prep",
     "source": "Msimbo chanzo",
+    "otherProjects": "Miradi yetu mingine",
     "short": {
       "math": "Hisabati",
       "learn": "Jifunze",
@@ -212,6 +213,13 @@
       "text": "Kila somo hapa ni bure na limekamilika lenyewe. Ukitaka mtu akufundishe, walimu binafsi wanaojitegemea na mashirika hutoa masomo na madarasa kupitia Gideon Tasks, soko tofauti la mtandaoni.",
       "owner": "Gideon Tasks inaendeshwa na Gideon Solutions, LLC, ambayo ina wamiliki walewale na Lumenary Academy.",
       "link": "Masomo binafsi kwenye Gideon Tasks"
+    },
+    "sameOwner": {
+      "title": "Kutoka kwa mmiliki yuleyule",
+      "disclosure": "Mmiliki wa Lumenary Academy pia anaendesha biashara hizi, na baadhi yake hutoza pesa. Zimeorodheshwa hapa kwa sababu ni zetu, si kwa sababu mtu yeyote ameamua kuwa ndizo bora zaidi katika aina yake.",
+      "prep": "Maandalizi ya mitihani kutoka Lumenary Academy. Ni ya kulipia: $50 kwa kila kozi, malipo mara moja kwa ufikiaji wa maisha yote.",
+      "games": "Michezo unayocheza kwenye kivinjari chako. Ni bure, na huhitaji akaunti ili kucheza.",
+      "tax": "Programu ya gharama nafuu ya kuwasilisha marejesho ya kodi kwa IRS mtandaoni. Ni ya kulipia."
     }
   },
   "levels": {

@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight, Atom, BarChart3, Bot, Braces, Cog, Cpu, Flask
 import type { LucideIcon } from "lucide-react";
 import { getT, resolveLocale } from "@/i18n/server";
 import { href } from "@/lib/href";
-import { academyPage, linguaHome, PREP_URL, TUTORING_URL } from "@/lib/sites";
+import { academyPage, linguaHome, OWNER_PROJECTS, PREP_URL, TUTORING_URL } from "@/lib/sites";
 import { sampleLesson, scientiaSubjects } from "@/lib/subjects";
 import { VerificationBadge } from "@/components/ui/Badges";
 
@@ -64,7 +64,7 @@ function withLinks(text: string, links: Record<string, { href: string; label: st
   });
 }
 
-/** Lumenary Scientia's front page: what it is, its subjects with lessons to try, and where to find a tutor or class. Lumenary Math's own front page is /math/. */
+/** Lumenary Scientia's front page: what it is, its subjects with lessons to try, where to find a tutor or class, and the owner's other projects. Lumenary Math's own front page is /math/. */
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await resolveLocale(params);
   const t = await getT(locale);
@@ -167,6 +167,26 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               {t("scientia.tutors.link")} <ArrowUpRight size={16} className="rtl:-scale-x-100" aria-hidden="true" />
             </a>
           </p>
+        </div>
+      </section>
+
+      {/* The owner's other projects, some of them paid, under a blunt disclosure: on this page only (the footer links here), never in a lesson. */}
+      <section id="same-owner" className="scroll-mt-20 border-t border-line" aria-labelledby="same-owner-title">
+        <div className="container-page py-12 sm:py-14">
+          <h2 id="same-owner-title" className="text-2xl font-semibold text-ink">
+            {t("scientia.sameOwner.title")}
+          </h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-ink-2">{t("scientia.sameOwner.disclosure")}</p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-3">
+            {OWNER_PROJECTS.map((p) => (
+              <li key={p.key} className="card p-5">
+                <a href={p.url} lang="en" className="link inline-flex items-center gap-1 font-semibold">
+                  {p.name} <ArrowUpRight size={16} className="rtl:-scale-x-100" aria-hidden="true" />
+                </a>
+                <p className="mt-2 leading-relaxed text-ink-2">{t(`scientia.sameOwner.${p.key}`)}</p>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </>

@@ -225,6 +225,7 @@ Mix difficulties (warm-up → stretch) and modes. From Grade 6 include at least 
 - **Safety.** Never describe, suggest or model an action that could hurt people or damage property, even as the setting of a word problem: no dropping or throwing things from bridges, balconies, windows, roofs, towers or cliffs; no playing on roads, railway tracks, thin ice or near deep water; no fire, sharp tools, electricity, chemicals or looking at the Sun; no climbing or jumping from heights; no experiments with heat or pressure outside a supervised laboratory. For falling bodies and projectiles use natural events (an apple falling from a tree, a raindrop), safe sport (a basketball shot, a football kick), a supervised laboratory demonstration, or the Apollo 15 hammer-and-feather drop on the Moon. Hands-on activities use safe classroom materials. Historical experiments may be told as history, never as instructions. `tests/lesson-rules.ts` flags the most common unsafe phrasings, but the rule is wider than the check.
 - **References** must be real, well-known books or papers (author, year). No URLs unless they are stable official ones.
 - **Tone:** clear, warm, encouraging, rigorous; joyful where appropriate; never condescending.
+- **No promotion.** A lesson and its exercises never link or name the owner's other projects (Lumenary Prep, Gideon Tasks, Gideon Tax, Peace Cat Games); since 22 November 2026 they are listed only on the front page, in a disclosed section the footer links (`docs/architecture.md`, `tests/same-owner.test.ts`).
 
 ## 10. Checks
 

@@ -80,15 +80,21 @@ export const DIVISIONS_NAV: NavItem[] = [
   { key: "lingua", path: "", site: "lingua" },
   { key: "prep", path: "", site: "prep" },
 ];
-/** This site's own pages, which belong to no one subject, and its source code. */
+/**
+ * The front page's "From the same owner" section (the projects are listed in src/lib/sites.ts), which the
+ * footer's project column links once on every page, and nothing else does.
+ */
+export const OTHER_PROJECTS: NavItem = { key: "otherProjects", path: "#same-owner" };
+/** This site's own pages, which belong to no one subject, its source code, and the owner's other projects. */
 export const PROJECT_PAGES: NavItem[] = [
   { key: "about", path: "about" },
   { key: "contribute", path: "contribute" },
   { key: "languages", path: "languages" },
   { key: "verification", path: "verification" },
   { key: "source", path: "", site: "source" },
+  OTHER_PROJECTS,
 ];
-/** The footer's project column on Lumenary Math's pages, with Math's educator resources and progress page. */
+/** The footer's project column on Lumenary Math's pages, with Math's educator resources and progress page, and the owner's other projects. */
 export const MATH_PROJECT_PAGES: NavItem[] = [
   { key: "about", path: "about" },
   { key: "divisions", path: "divisions", site: "academy" },
@@ -98,6 +104,7 @@ export const MATH_PROJECT_PAGES: NavItem[] = [
   { key: "verification", path: "verification" },
   { key: "progress", path: "progress" },
   { key: "source", path: "", site: "source" },
+  OTHER_PROJECTS,
 ];
 
 /** Lumenary Math's pages: its front page and everything under /math/, the labs, practice, progress and the educator resources. */

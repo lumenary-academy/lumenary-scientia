@@ -11,7 +11,8 @@ import { FooterNav, type FooterColumn, type FooterLink } from "./FooterNav";
  * The site footer. Its columns depend on the part of the site the page belongs to (src/lib/site-nav.ts):
  * Lumenary Math's pages list the subjects, Math's tools and the project pages; every other page lists
  * the subjects with the electives, Lumenary Academy and its two other divisions (on their own sites),
- * and the project pages with the source code.
+ * and the project pages with the source code. Both project columns end with a link to the front
+ * page's "From the same owner" section, the footer's only pointer to the owner's other projects.
  */
 export function SiteFooter({ locale, t }: { locale: Locale; t: TFunction }) {
   const link = (item: NavItem): FooterLink => ({ label: t(`nav.${item.key}`), href: navHref(item, locale) });
