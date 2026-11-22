@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { ArrowRight, Atom, BarChart3, Bot, Braces, Cog, Cpu, FlaskConical, Gem, Sigma, Zap } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Atom, BarChart3, Bot, Braces, Cog, Cpu, FlaskConical, Gem, Sigma, Zap } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { getT, resolveLocale } from "@/i18n/server";
 import { href } from "@/lib/href";
-import { academyPage, linguaHome, PREP_URL } from "@/lib/sites";
+import { academyPage, linguaHome, PREP_URL, TUTORING_URL } from "@/lib/sites";
 import { sampleLesson, scientiaSubjects } from "@/lib/subjects";
 import { VerificationBadge } from "@/components/ui/Badges";
 
@@ -64,7 +64,7 @@ function withLinks(text: string, links: Record<string, { href: string; label: st
   });
 }
 
-/** Lumenary Scientia's front page: what it is, and its subjects with lessons to try. Lumenary Math's own front page is /math/. */
+/** Lumenary Scientia's front page: what it is, its subjects with lessons to try, and where to find a tutor or class. Lumenary Math's own front page is /math/. */
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await resolveLocale(params);
   const t = await getT(locale);
@@ -150,6 +150,22 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               lingua: { href: linguaHome(locale), label: t("nav.lingua") },
               prep: { href: PREP_URL, label: t("nav.prep") },
             })}
+          </p>
+        </div>
+      </section>
+
+      {/* The site's one pointer to tutors and classes: a separate marketplace, disclosed, on this page only. */}
+      <section id="tutors" className="scroll-mt-20 border-t border-line" aria-labelledby="tutors-title">
+        <div className="container-page py-12 sm:py-14">
+          <h2 id="tutors-title" className="text-2xl font-semibold text-ink">
+            {t("scientia.tutors.title")}
+          </h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-ink-2">{t("scientia.tutors.text")}</p>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">{t("scientia.tutors.owner")}</p>
+          <p className="mt-4">
+            <a href={TUTORING_URL} className="link inline-flex items-center gap-1 font-semibold">
+              {t("scientia.tutors.link")} <ArrowUpRight size={16} className="rtl:-scale-x-100" aria-hidden="true" />
+            </a>
           </p>
         </div>
       </section>

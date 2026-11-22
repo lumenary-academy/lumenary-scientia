@@ -206,7 +206,13 @@
     "free": "It is free and open source, now and always: no accounts, no advertising and no paid tiers. The code is licensed under Apache-2.0, and the lessons, exercises and diagrams under CC BY-SA 4.0.",
     "honesty": "Every lesson was drafted with AI assistance, and none has yet been reviewed by a human expert. The Lean proofs are checked by Lean and the lessons’ code is run by automated checks; everything else awaits human review.",
     "about": "About Lumenary Scientia",
-    "academy": "Lumenary Scientia is one of the three divisions of {academy}, with {lingua} for languages and {prep} for exam preparation."
+    "academy": "Lumenary Scientia is one of the three divisions of {academy}, with {lingua} for languages and {prep} for exam preparation.",
+    "tutors": {
+      "title": "Tutors & classes",
+      "text": "Every lesson here is free and complete on its own. If you would like a person to teach you, independent tutors and organisations offer lessons and classes through Gideon Tasks, a separate marketplace.",
+      "owner": "Gideon Tasks is run by Gideon Solutions, LLC, under the same ownership as Lumenary Academy.",
+      "link": "Tutoring on Gideon Tasks"
+    }
   },
   "levels": {
     "k2": "K–2",
