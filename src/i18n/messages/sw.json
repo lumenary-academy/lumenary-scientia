@@ -98,7 +98,7 @@
   "home": {
     "eyebrow": "Shule ya hisabati ya bure na ya chanzo huria",
     "title": "Hisabati, kuanzia kuhesabu hadi kategoria — kwa kila mtu, kila mahali.",
-    "lead": "Lumenary Math ni mtaala unaokua ambapo kila wazo huchunguzwa kwa njia tatu: kueleweka na watu, kuthibitishwa kwa usahihi, na kujaribiwa kwa ukokotoaji. Jifunze kwa kasi yako mwenyewe. Hakuna akaunti, hakuna matangazo, hakuna mfululizo wa siku.",
+    "lead": "Lumenary Math ni mtaala unaokua ambapo kila wazo huchunguzwa kwa njia tatu: kueleweka na watu, kuthibitishwa kwa usahihi, na kujaribiwa kwa ukokotoaji. Jifunze kwa kasi yako mwenyewe. Hakuna akaunti, hakuna matangazo ya wahusika wengine, hakuna mfululizo wa siku.",
     "start": "Anza kujifunza",
     "explore": "Chunguza ramani",
     "modesTitle": "Njia tatu za kujua, zilizofumwa pamoja",
@@ -204,7 +204,7 @@
   "scientia": {
     "eyebrow": "Sayansi · Bure na chanzo huria",
     "lead": "Lumenary Scientia hufundisha sayansi, kila fani kuanzia hatua za kwanza hadi mipaka ya maarifa: hisabati, kemia, takwimu, sayansi ya kompyuta na lugha za programu, uhandisi wa umeme, roboti, uhandisi wa mitambo na sayansi ya nyenzo. Fizikia, biolojia na sayansi nyingine zitafuata.",
-    "free": "Ni bure na ya chanzo huria, sasa na daima: hakuna akaunti, hakuna matangazo na hakuna viwango vya kulipia. Msimbo una leseni ya Apache-2.0, na masomo, mazoezi na michoro yana leseni ya CC BY-SA 4.0.",
+    "free": "Ni bure na ya chanzo huria, sasa na daima: hakuna akaunti, hakuna matangazo ya wahusika wengine na hakuna viwango vya kulipia. Msimbo una leseni ya Apache-2.0, na masomo, mazoezi na michoro yana leseni ya CC BY-SA 4.0.",
     "honesty": "Kila somo liliandikwa kwa msaada wa AI, na hakuna hata moja lililopitiwa bado na mtaalamu wa binadamu. Uthibitisho wa Lean hukaguliwa na Lean, na msimbo wa masomo huendeshwa na ukaguzi wa kiotomatiki; mengine yote yanasubiri mapitio ya binadamu.",
     "about": "Kuhusu Lumenary Scientia",
     "academy": "Lumenary Scientia ni mojawapo ya vitengo vitatu vya {academy}, pamoja na {lingua} kwa lugha na {prep} kwa maandalizi ya mitihani.",

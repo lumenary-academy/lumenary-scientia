@@ -2,7 +2,7 @@
 
 **All the sciences. Many languages. Every nation.**
 
-Lumenary Scientia is the sciences division of Lumenary Academy, a Christian-inspired education project in three divisions. This repository, [lumenary-academy/lumenary-scientia](https://github.com/lumenary-academy/lumenary-scientia), builds its website, [scientia.lumenary.academy](https://scientia.lumenary.academy): **Lumenary Math**, **Lumenary Statistics**, **Lumenary CS** (with its programming-language courses and electives), **Lumenary EE**, **Lumenary Robotics**, **Lumenary Chemistry**, **Lumenary ME** and **Lumenary Materials**, free and open source for ever: no accounts, no advertising, no paid tiers.
+Lumenary Scientia is the sciences division of Lumenary Academy, a Christian-inspired education project in three divisions. This repository, [lumenary-academy/lumenary-scientia](https://github.com/lumenary-academy/lumenary-scientia), builds its website, [scientia.lumenary.academy](https://scientia.lumenary.academy): **Lumenary Math**, **Lumenary Statistics**, **Lumenary CS** (with its programming-language courses and electives), **Lumenary EE**, **Lumenary Robotics**, **Lumenary Chemistry**, **Lumenary ME** and **Lumenary Materials**, free and open source for ever: no accounts, no third-party ads, no paid tiers.
 
 | Subject | Where | Status |
 | --- | --- | --- |

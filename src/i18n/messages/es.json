@@ -98,7 +98,7 @@
   "home": {
     "eyebrow": "Una escuela de matemáticas gratuita y de código abierto",
     "title": "Matemáticas, desde contar hasta las categorías — para todos, en todas partes.",
-    "lead": "Lumenary Math es un plan de estudios en crecimiento en el que cada idea se explora de tres maneras: comprendida por personas, demostrada con precisión y puesta a prueba mediante el cálculo. Aprende a tu ritmo. Sin cuentas, sin anuncios, sin rachas.",
+    "lead": "Lumenary Math es un plan de estudios en crecimiento en el que cada idea se explora de tres maneras: comprendida por personas, demostrada con precisión y puesta a prueba mediante el cálculo. Aprende a tu ritmo. Sin cuentas, sin anuncios de terceros, sin rachas.",
     "start": "Empezar a aprender",
     "explore": "Explorar el mapa",
     "modesTitle": "Tres formas de conocer, entrelazadas",
@@ -204,7 +204,7 @@
   "scientia": {
     "eyebrow": "Las ciencias · Gratis y de código abierto",
     "lead": "Lumenary Scientia enseña las ciencias, cada una desde los primeros pasos hasta la frontera: matemáticas, química, estadística, informática y lenguajes de programación, ingeniería eléctrica, robótica, ingeniería mecánica y ciencia de materiales. Llegarán la física, la biología y otras ciencias.",
-    "free": "Es gratuita y de código abierto, hoy y siempre: sin cuentas, sin publicidad y sin niveles de pago. El código tiene licencia Apache-2.0, y las lecciones, los ejercicios y los diagramas, CC BY-SA 4.0.",
+    "free": "Es gratuita y de código abierto, hoy y siempre: sin cuentas, sin publicidad de terceros y sin niveles de pago. El código tiene licencia Apache-2.0, y las lecciones, los ejercicios y los diagramas, CC BY-SA 4.0.",
     "honesty": "Cada lección se redactó con ayuda de IA, y ninguna ha sido revisada todavía por un experto humano. Lean comprueba las demostraciones en Lean y unas comprobaciones automáticas ejecutan el código de las lecciones; todo lo demás espera revisión humana.",
     "about": "Acerca de Lumenary Scientia",
     "academy": "Lumenary Scientia es una de las tres divisiones de {academy}, junto con {lingua}, para idiomas, y {prep}, para la preparación de exámenes.",
