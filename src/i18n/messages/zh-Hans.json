@@ -206,7 +206,13 @@
     "free": "它免费且开源，现在如此，永远如此：无需账户，没有广告，没有付费等级。代码采用 Apache-2.0 许可，课程、练习和图示采用 CC BY-SA 4.0 许可。",
     "honesty": "每节课都在 AI 协助下起草，目前还没有任何一节经过人类专家审阅。Lean 证明由 Lean 检查，课程中的代码由自动化检查运行；其余一切均等待人工审阅。",
     "about": "关于 Lumenary Scientia",
-    "academy": "Lumenary Scientia 是 {academy} 的三个分部之一，另外两个是教授语言的 {lingua} 和提供备考服务的 {prep}。"
+    "academy": "Lumenary Scientia 是 {academy} 的三个分部之一，另外两个是教授语言的 {lingua} 和提供备考服务的 {prep}。",
+    "tutors": {
+      "title": "家教与课程班",
+      "text": "这里的每一课都是免费的，本身就很完整。如果你希望有人亲自教你，独立家教和机构会通过 Gideon Tasks 提供辅导和课程班；Gideon Tasks 是一个独立的交易平台。",
+      "owner": "Gideon Tasks 由 Gideon Solutions, LLC 运营，与 Lumenary Academy 归属同一所有者。",
+      "link": "Gideon Tasks 上的家教服务"
+    }
   },
   "levels": {
     "k2": "幼儿园至二年级",

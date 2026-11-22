@@ -206,7 +206,13 @@
     "free": "Ni bure na ya chanzo huria, sasa na daima: hakuna akaunti, hakuna matangazo na hakuna viwango vya kulipia. Msimbo una leseni ya Apache-2.0, na masomo, mazoezi na michoro yana leseni ya CC BY-SA 4.0.",
     "honesty": "Kila somo liliandikwa kwa msaada wa AI, na hakuna hata moja lililopitiwa bado na mtaalamu wa binadamu. Uthibitisho wa Lean hukaguliwa na Lean, na msimbo wa masomo huendeshwa na ukaguzi wa kiotomatiki; mengine yote yanasubiri mapitio ya binadamu.",
     "about": "Kuhusu Lumenary Scientia",
-    "academy": "Lumenary Scientia ni mojawapo ya vitengo vitatu vya {academy}, pamoja na {lingua} kwa lugha na {prep} kwa maandalizi ya mitihani."
+    "academy": "Lumenary Scientia ni mojawapo ya vitengo vitatu vya {academy}, pamoja na {lingua} kwa lugha na {prep} kwa maandalizi ya mitihani.",
+    "tutors": {
+      "title": "Walimu binafsi na madarasa",
+      "text": "Kila somo hapa ni bure na limekamilika lenyewe. Ukitaka mtu akufundishe, walimu binafsi wanaojitegemea na mashirika hutoa masomo na madarasa kupitia Gideon Tasks, soko tofauti la mtandaoni.",
+      "owner": "Gideon Tasks inaendeshwa na Gideon Solutions, LLC, ambayo ina wamiliki walewale na Lumenary Academy.",
+      "link": "Masomo binafsi kwenye Gideon Tasks"
+    }
   },
   "levels": {
     "k2": "Chekechea–Darasa la 2",

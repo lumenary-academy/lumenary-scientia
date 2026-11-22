@@ -20,6 +20,12 @@ export const LINGUA_URL = "https://lingua.lumenary.academy";
 /** Lumenary Prep. */
 export const PREP_URL = "https://prep.lumenary.academy";
 
+/**
+ * Tutors and classes on Gideon Tasks, a separate marketplace run by Gideon Solutions, LLC. The site
+ * links it once, from one section of the front page, and never from a lesson.
+ */
+export const TUTORING_URL = "https://www.gideontasks.com/tutoring";
+
 /** A page of Lumenary Academy's site in a locale: https://lumenary.academy/<locale>/<path>/ (its front page without a path). */
 export const academyPage = (locale: string, path = "") => `${ACADEMY_URL}/${locale}/${path && !path.endsWith("/") ? `${path}/` : path}`;
 
